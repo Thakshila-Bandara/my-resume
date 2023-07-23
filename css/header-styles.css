@@ -1,11 +1,12 @@
 .header {
     overflow: hidden;
     background-color: #000000;
-    padding: 45px 10px;
+    padding: 4px 10px;
     position: fixed;
     top: -50px;
     width: 100%;
     transition: top 0.3s;
+    
 }
 
 .header a {
