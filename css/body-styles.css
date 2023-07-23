@@ -1,0 +1,37 @@
+body{
+
+    margin: 0%;
+    color: black;
+}
+
+.myself{
+    width: 100%;
+    
+    
+    
+}
+
+.myname{
+    font-style: oblique;
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+
+.myname p{
+
+    color: aliceblue;
+    font-size: 40px
+    
+}
+
+.myimg{
+    
+    width: 50%;
+    flex: auto;
+}
+
+.myimg img{
+
+    opacity:85%;
+}
