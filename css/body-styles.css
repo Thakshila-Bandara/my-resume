@@ -5,6 +5,16 @@ body, html{
     color: black;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-weight: 300;
+}
+
+
 .bg{
 
     position: relative;
@@ -47,11 +57,11 @@ body, html{
 
 .myimg{
     
-    width: 50%;
+    width: 40%;
     position: relative;
     height: 100vh;
     margin-right: 0%;
-    float: right;
+    float: left;
 }
 
 .myimg img{
@@ -68,4 +78,15 @@ body, html{
     max-width: 100%;
     height: auto;
     
+}
+
+.down-ico{
+
+    width: 10%;
+    position: absolute;
+    top: 80%;
+    bottom: 30%; 
+    left: 50%;
+    transform: translateX(-40%);
+    font-size: 90px;
 }
