@@ -1,7 +1,19 @@
-body{
+body, html{
 
+    height: 100%;
     margin: 0%;
     color: black;
+}
+
+.bg{
+
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 .myself{
@@ -16,6 +28,7 @@ body{
     text-align: center;
     float: right;
     width: 50%;
+    padding-top: 5%;
 }
 
 .myname p{
@@ -34,4 +47,5 @@ body{
 .myimg img{
 
     opacity:85%;
+    
 }
