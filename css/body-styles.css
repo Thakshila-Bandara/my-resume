@@ -10,13 +10,13 @@ body, html{
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
-  'opsz' 48;
-  font-weight: 300;
+  'opsz' 48
 }
 
 
-.bg{
 
+.bg{
+    
     position: relative;
     height: 100%;
     background-position: center;
@@ -80,6 +80,12 @@ body, html{
     
 }
 
+.myimg img:hover{
+
+    color: white;
+    box-shadow: 0 5px 15px #afe0f5;
+}
+
 .down-ico{
 
     width: 10%;
@@ -89,4 +95,23 @@ body, html{
     left: 50%;
     transform: translateX(-40%);
     font-size: 90px;
+}
+
+.down-ico span{
+
+    
+    font-size: 70%;
+    
+}
+
+.down-ico a{
+
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+.down-ico a:hover{
+
+    color: goldenrod;
 }
