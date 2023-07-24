@@ -28,7 +28,7 @@ body, html{
 
 .myself{
     width: 100%;
-    height: 100vh;
+    
     
     
     
@@ -114,4 +114,21 @@ body, html{
 .down-ico a:hover{
 
     color: goldenrod;
+}
+
+#about{
+
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section h1{
+
+    margin: 0;
+    
 }
