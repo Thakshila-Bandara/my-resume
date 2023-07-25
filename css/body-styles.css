@@ -27,12 +27,9 @@ body, html{
 }
 
 .myself{
+    
     width: 100%;
-    
-    
-    
-    
-}
+ }
 
 .myname{
     font-style:normal;
@@ -128,8 +125,27 @@ body, html{
     
 }
 
-section h1{
+.myself > p.topic{
 
     margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    font-size: 60px;
+    font-family:sans-serif;
     
+}
+
+.myself > p.descrip{
+
+    margin: 0;
+    position: absolute;
+    padding-top: 15%;
+    top: 38%;
+    left: 50%;
+    transform: translate(-55%, -50%);
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
 }
