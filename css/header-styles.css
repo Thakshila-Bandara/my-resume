@@ -38,6 +38,18 @@
     padding-left: 36%;
 }
 
+.header-middle a{
+
+    color: white;
+    transition: 0.3s;
+}
+
+
+.header-middle a.active {
+    color: #cd8405;
+}
+
+
 @media screen and (max-width: 500px) {
     .header a {
       float: none;
