@@ -158,9 +158,60 @@ body, html{
 #resume{
 
     position: relative;
-    height: 100%;
+    height: 150%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.edu > p.edu-topic{
+
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    font-size: 30px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #79c3e2;
+    
+}
+
+.edu > p.edu-desc-row1{
+
+    margin: 0;
+    position: absolute;
+    float: right;
+    right: 30%;
+    top: 10%;
+    color: rgb(51, 50, 50);
+}
+
+.edu > p.edu-desc-row2{
+
+    margin: 0;
+    position: absolute;
+    float: right;
+    top: 13%;
+    right: 32%;
+    font-size: 18px;
+    font-style: oblique;
+    color:rgba(250, 235, 215, 0.382);
+    
+}
+
+.skills > p.skills-topic{
+
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    font-size: 30px;
+    float: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+    border-bottom: 2px solid #79c3e2;
+
 }
