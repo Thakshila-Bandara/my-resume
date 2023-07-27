@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html{
 
     scroll-behavior: smooth;
@@ -212,12 +216,22 @@ body, html{
     
 }
 
-.skills > p.skills-topic{
+.skill{
+
+    position: absolute;
+    border-bottom: 2px solid #585b5b;
+    height: 60%;
+    left: 10%;
+    right: 20%;
+    top: 7%;
+}
+
+.skill > p.skills-topic{
 
     margin: 0;
     position: absolute;
     top: 25%;
-    left: 20%;
+    left: 15%;
     font-size: 30px;
     float: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -226,7 +240,7 @@ body, html{
 
 }
 
-.skills > p.html{
+.skill > p.htm{
 
     margin: 0;
     position: absolute;
@@ -237,5 +251,26 @@ body, html{
     font-size: 20px;
     letter-spacing: 2px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.container-skills {
+    width: 50%; 
+    background-color: #dddddd9b;
+    position: absolute;
+    right: 8%;
+    top: 32%; 
+}
+
+.skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+}
+
+.html {
+    width: 90%; background-color: #000000;
+    
 
 }
