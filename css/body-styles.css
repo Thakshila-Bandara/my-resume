@@ -304,3 +304,32 @@ body, html{
     top: 49%;
 
 }
+
+.skill > p.jsc{
+
+    margin: 0;
+    position: absolute;
+    float: right;
+    right: 43%;
+    top: 59.5%;
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container-skills-jsc{
+
+    width: 50%; 
+    background-color: #dddddd9b;
+    position: absolute;
+    right: 8%;
+    top: 66%;
+
+}
+
+.js{
+
+    width: 65%;
+    background-color: #000000;
+}
