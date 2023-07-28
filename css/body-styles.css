@@ -270,7 +270,37 @@ body, html{
 }
 
 .html {
-    width: 90%; background-color: #000000;
+    width: 90%; 
+    background-color: #000000;
     
+
+}
+
+.skill > p.cs{
+
+    margin: 0;
+    position: absolute;
+    float: right;
+    right: 51%;
+    top: 42.5%;
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.css{
+
+    width: 60%;
+    background-color: #000000;
+}
+
+.container-skills-cs{
+
+    width: 50%; 
+    background-color: #dddddd9b;
+    position: absolute;
+    right: 8%;
+    top: 49%;
 
 }
