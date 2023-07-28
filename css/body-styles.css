@@ -333,3 +333,61 @@ body, html{
     width: 65%;
     background-color: #000000;
 }
+
+.skill > p.jav{
+
+    margin: 0;
+    position: absolute;
+    float: right;
+    right: 50%;
+    top: 75.5%;
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container-skills-jav{
+
+    width: 50%; 
+    background-color: #dddddd9b;
+    position: absolute;
+    right: 8%;
+    top: 82%;
+
+}
+
+.java{
+
+    width: 65%;
+    background-color: #000000;
+}
+
+.skill > p.mysq{
+
+    margin: 0;
+    position: absolute;
+    float: right;
+    right: 48%;
+    top: 92.5%;
+    color: rgb(31, 29, 29);
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container-skills-mysq{
+
+    width: 50%; 
+    background-color: #dddddd9b;
+    position: absolute;
+    right: 8%;
+    top: 99%;
+
+}
+
+.mysql{
+
+    width: 50%;
+    background-color: #000000;
+}
