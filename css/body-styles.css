@@ -171,14 +171,13 @@ body, html{
 
 .edu{
     position: absolute;
-    border-bottom: 2px solid #585b5b;
     height: 15%;
     left: 10%;
     right: 20%;
     top: 5%;
 }
 
-.edu > p.edu-topic{
+.edu > a.edu-topic{
 
     margin: 0;
     position: absolute;
@@ -195,6 +194,7 @@ body, html{
 .edu-desc-col2{
 
     display: none;
+    
 }
 
 .edu-desc-col2 > p.edu-desc-row1{
@@ -212,7 +212,7 @@ body, html{
     margin: 0;
     position: absolute;
     float: right;
-    top: 27%;
+    top: 29%;
     right: 17%;
     font-size: 18px;
     font-style: oblique;
@@ -223,14 +223,19 @@ body, html{
 .skill{
 
     position: absolute;
-    border-bottom: 2px solid #585b5b;
     height: 60%;
     left: 10%;
     right: 20%;
     top: 7%;
 }
 
-.skill > p.skills-topic{
+
+.skills-desc-col{
+
+    display: none;
+}
+
+.skill > a.skills-topic{
 
     margin: 0;
     position: absolute;
@@ -244,7 +249,7 @@ body, html{
 
 }
 
-.skill > p.htm{
+.skills-desc-col > p.htm{
 
     margin: 0;
     position: absolute;
@@ -280,7 +285,7 @@ body, html{
 
 }
 
-.skill > p.cs{
+.skills-desc-col > p.cs{
 
     margin: 0;
     position: absolute;
@@ -309,7 +314,7 @@ body, html{
 
 }
 
-.skill > p.jsc{
+.skills-desc-col > p.jsc{
 
     margin: 0;
     position: absolute;
@@ -338,7 +343,7 @@ body, html{
     background-color: #000000;
 }
 
-.skill > p.jav{
+.skills-desc-col > p.jav{
 
     margin: 0;
     position: absolute;
@@ -367,7 +372,7 @@ body, html{
     background-color: #000000;
 }
 
-.skill > p.mysq{
+.skills-desc-col > p.mysq{
 
     margin: 0;
     position: absolute;
