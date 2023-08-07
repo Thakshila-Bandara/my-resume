@@ -7,6 +7,7 @@
     <title>My-Resume</title>
     <link rel="stylesheet" href="css/header-styles.css">
     <link rel="stylesheet" href="css/body-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
@@ -86,8 +87,14 @@
         
         
             <div class="edu">
+                
+                
+                    <a href="#"  onclick="btnTogEdu(event); return false;" style="color: blanchedalmond;">
+                        <span id="toggle-icon" class="toggle-icon" ><i class="fas fa-plus"></i></span>   
+                    </a>    
+                    <p class="edu-topic"  style="color: blanchedalmond;">EDUCATION</p>
 
-                <a class="edu-topic"  href="#" onclick="btnTogEdu(event); return false;" style="color: blanchedalmond;">EDUCATION</a>
+                <!-- <a class="edu-topic"  href="#" onclick="btnTogEdu(event); return false;" style="color: blanchedalmond;">EDUCATION</a> -->
                 <div class="edu-desc-col2" id="edu-topic">
                     <p class="edu-desc-row1"><b style="font-size: 25px;">University of Kelaniya, Sri Lanka</b></p><br>
                     <p class="edu-desc-row2">Bsc.(Hons') in Software Enginnering (UG)</p>

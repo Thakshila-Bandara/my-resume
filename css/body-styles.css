@@ -177,7 +177,20 @@ body, html{
     top: 5%;
 }
 
-.edu > a.edu-topic{
+.edu a{
+
+    text-decoration: none;
+    position: absolute;
+    top: 10%;
+    left: 9%;
+}
+
+.edu i{
+
+    font-size: 25px;
+}
+
+.edu > p.edu-topic{
 
     margin: 0;
     position: absolute;
@@ -191,9 +204,13 @@ body, html{
     
 }
 
+
+
+
 .edu-desc-col2{
 
     display: none;
+    transition: max-height 0.5s ease;
     
 }
 
