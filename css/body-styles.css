@@ -246,13 +246,27 @@ body, html{
     top: 7%;
 }
 
+.skill a{
+
+    text-decoration: none;
+    position: absolute;
+    top: 27%;
+    left: 12%;
+
+}
+
+.skill i{
+
+    font-size: 20px;
+}
+
 
 .skills-desc-col{
 
     display: none;
 }
 
-.skill > a.skills-topic{
+.skill > p.skills-topic{
 
     margin: 0;
     position: absolute;
