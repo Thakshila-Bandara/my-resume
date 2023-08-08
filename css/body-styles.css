@@ -187,7 +187,7 @@ body, html{
 
 .edu i{
 
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .edu > p.edu-topic{
@@ -210,7 +210,8 @@ body, html{
 .edu-desc-col2{
 
     display: none;
-    transition: max-height 0.5s ease;
+    
+    
     
 }
 
