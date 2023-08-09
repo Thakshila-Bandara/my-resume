@@ -162,7 +162,7 @@ body, html{
 #resume{
 
     position: relative;
-    height: 150%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +227,7 @@ body, html{
 
 .edu-desc-col2 > p.edu-desc-row2{
 
-    margin: 0;
+    margin: 2%;
     position: absolute;
     float: right;
     top: 29%;
@@ -431,4 +431,43 @@ body, html{
 
     width: 50%;
     background-color: #000000;
+}
+
+#myproj{
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.proj-topic{
+
+    
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-55%, -24%);
+    font-size: 60px;
+    font-family:sans-serif;
+}
+
+.proj-name{
+
+    color: azure;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    
+}
+
+#myproj > .container-fluid{
+
+    top: 25%;
+    position: absolute;
 }
