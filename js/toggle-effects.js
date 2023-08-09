@@ -17,3 +17,4 @@ function btnTogSkill(event){
     toggleIconSkill.innerHTML = (skillBtn.style.display === "none") ? '<i class="fas fa-plus"></i>' : '<i class="fas fa-minus"></i>';
     
 }
+

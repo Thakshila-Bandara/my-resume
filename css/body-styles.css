@@ -452,7 +452,7 @@ body, html{
     top: 12%;
     left: 50%;
     transform: translate(-55%, -24%);
-    font-size: 60px;
+    font-size: 55px;
     font-family:sans-serif;
 }
 
@@ -461,7 +461,7 @@ body, html{
     color: azure;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+    justify-content: space-between;
     
     
 }
@@ -470,4 +470,69 @@ body, html{
 
     top: 25%;
     position: absolute;
+}
+
+.projec{
+
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    justify-content: space-between;
+}
+.projec img{
+
+    width: 40%;
+    transform: translate(75%);
+    padding-bottom: 7%;
+}
+
+.projec > p.proj1-details{
+
+    margin-left: 2%;
+    line-height: 1.5;
+}
+
+.projec svg{
+
+    float: right;
+    transform: translateY(-319%);
+    transform-origin: center;
+}
+
+.proj-desc{
+
+    padding-top: 5%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.projec.active .proj-desc{
+
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.projec.active svg{
+
+    transform: translateY(-319%) rotate(180deg);
+    
+    
+}
+
+svg{
+
+    transition: transform .5s ease-in;
+}
+
+@keyframes fade{
+
+    from{
+
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
