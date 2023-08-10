@@ -190,30 +190,17 @@ body, html{
     font-size: 20px;
 }
 
-.edu > p.edu-topic{
+.qualifi-name{
 
-    margin: 0;
-    position: absolute;
-    top: 10%;
-    left: 14%;
-    font-size: 30px;
-    float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 3px;
-    border-bottom: 2px solid #79c3e2;
+    justify-content: space-between;
+    color:azure;
     
 }
 
 
-
-
-.edu-desc-col2{
-
-    display: none;
-    
-    
-    
-}
 
 .edu-desc-col2 > p.edu-desc-row1{
 
@@ -225,16 +212,12 @@ body, html{
     color: rgb(51, 50, 50);
 }
 
-.edu-desc-col2 > p.edu-desc-row2{
+.edu-desc-row2{
 
-    margin: 2%;
-    position: absolute;
-    float: right;
-    top: 29%;
-    right: 17%;
-    font-size: 18px;
+    
+    font-size: 16px;
     font-style: oblique;
-    color:rgba(250, 235, 215, 0.382);
+    color:aliceblue;
     
 }
 
@@ -466,7 +449,7 @@ body, html{
     
 }
 
-#myproj > .container-fluid{
+.myproj > .col-lg-12{
 
     top: 25%;
     position: absolute;
@@ -509,7 +492,7 @@ body, html{
 
 .projec.active .proj-desc{
 
-    max-height: 300px;
+    max-height: 60vh;
     animation: fade 1s ease-in-out;
 }
 
@@ -536,4 +519,9 @@ svg{
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.proj-desc a{
+
+    text-decoration: none;
 }
