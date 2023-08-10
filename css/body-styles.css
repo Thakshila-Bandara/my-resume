@@ -169,25 +169,9 @@ body, html{
     background-attachment: fixed;
 }
 
-.edu{
-    position: absolute;
-    height: 15%;
-    left: 10%;
-    right: 20%;
-    top: 5%;
-}
+#resume > .col-lg-12{
 
-.edu a{
-
-    text-decoration: none;
-    position: absolute;
-    top: 10%;
-    left: 9%;
-}
-
-.edu i{
-
-    font-size: 20px;
+    padding-top: 2%;
 }
 
 .qualifi-name{
@@ -200,27 +184,6 @@ body, html{
     
 }
 
-
-
-.edu-desc-col2 > p.edu-desc-row1{
-
-    margin: 0;
-    position: absolute;
-    float: right;
-    right: 15%;
-    top: 10%;
-    color: rgb(51, 50, 50);
-}
-
-.edu-desc-row2{
-
-    
-    font-size: 16px;
-    font-style: oblique;
-    color:aliceblue;
-    
-}
-
 .skill{
 
     position: absolute;
@@ -230,47 +193,9 @@ body, html{
     top: 7%;
 }
 
-.skill a{
-
-    text-decoration: none;
-    position: absolute;
-    top: 27%;
-    left: 12%;
-
-}
-
-.skill i{
-
-    font-size: 20px;
-}
-
-
-.skills-desc-col{
-
-    display: none;
-}
-
-.skill > p.skills-topic{
+.htm{
 
     margin: 0;
-    position: absolute;
-    top: 25%;
-    left: 15%;
-    font-size: 30px;
-    float: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 3px;
-    border-bottom: 2px solid #79c3e2;
-
-}
-
-.skills-desc-col > p.htm{
-
-    margin: 0;
-    position: absolute;
-    float: right;
-    right: 49%;
-    top: 25.5%;
     color: rgb(31, 29, 29);
     font-size: 20px;
     letter-spacing: 2px;
@@ -279,11 +204,9 @@ body, html{
 }
 
 .container-skills {
-    width: 50%; 
+    width: 100%; 
     background-color: #dddddd9b;
-    position: absolute;
-    right: 8%;
-    top: 32%; 
+    
 }
 
 .skills {
@@ -300,13 +223,9 @@ body, html{
 
 }
 
-.skills-desc-col > p.cs{
+.cs{
 
     margin: 0;
-    position: absolute;
-    float: right;
-    right: 51%;
-    top: 42.5%;
     color: rgb(31, 29, 29);
     font-size: 20px;
     letter-spacing: 2px;
@@ -321,21 +240,15 @@ body, html{
 
 .container-skills-cs{
 
-    width: 50%; 
+    width: 100%; 
     background-color: #dddddd9b;
-    position: absolute;
-    right: 8%;
-    top: 49%;
+    
 
 }
 
-.skills-desc-col > p.jsc{
+.jsc{
 
     margin: 0;
-    position: absolute;
-    float: right;
-    right: 43%;
-    top: 59.5%;
     color: rgb(31, 29, 29);
     font-size: 20px;
     letter-spacing: 2px;
@@ -344,11 +257,8 @@ body, html{
 
 .container-skills-jsc{
 
-    width: 50%; 
+    width: 100%; 
     background-color: #dddddd9b;
-    position: absolute;
-    right: 8%;
-    top: 66%;
 
 }
 
@@ -358,13 +268,9 @@ body, html{
     background-color: #000000;
 }
 
-.skills-desc-col > p.jav{
+.jav{
 
     margin: 0;
-    position: absolute;
-    float: right;
-    right: 50%;
-    top: 75.5%;
     color: rgb(31, 29, 29);
     font-size: 20px;
     letter-spacing: 2px;
@@ -373,12 +279,8 @@ body, html{
 
 .container-skills-jav{
 
-    width: 50%; 
-    background-color: #dddddd9b;
-    position: absolute;
-    right: 8%;
-    top: 82%;
-
+    width: 100%; 
+    background-color: #dddddd9b;  
 }
 
 .java{
@@ -387,13 +289,9 @@ body, html{
     background-color: #000000;
 }
 
-.skills-desc-col > p.mysq{
+.mysq{
 
     margin: 0;
-    position: absolute;
-    float: right;
-    right: 48%;
-    top: 92.5%;
     color: rgb(31, 29, 29);
     font-size: 20px;
     letter-spacing: 2px;
@@ -402,11 +300,8 @@ body, html{
 
 .container-skills-mysq{
 
-    width: 50%; 
+    width: 100%; 
     background-color: #dddddd9b;
-    position: absolute;
-    right: 8%;
-    top: 99%;
 
 }
 
@@ -414,6 +309,13 @@ body, html{
 
     width: 50%;
     background-color: #000000;
+}
+
+.skill-set{
+    
+    margin-left: 10%;
+    padding-top: -5%;
+
 }
 
 #myproj{
@@ -492,7 +394,7 @@ body, html{
 
 .projec.active .proj-desc{
 
-    max-height: 60vh;
+    max-height: 90vh;
     animation: fade 1s ease-in-out;
 }
 
@@ -536,3 +438,4 @@ svg{
     text-align: justify;
     margin-left: 15%;
 }
+
