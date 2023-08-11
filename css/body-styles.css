@@ -439,3 +439,13 @@ svg{
     margin-left: 15%;
 }
 
+.up-arrow{
+
+    position: absolute;
+    top: 90%;
+}
+
+.up-arrow i:hover{
+
+    color: goldenrod;
+}

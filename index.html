@@ -7,13 +7,14 @@
     <title>My-Resume</title>
     <link rel="stylesheet" href="css/header-styles.css">
     <link rel="stylesheet" href="css/body-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     
     <script src="js/scroll-effects.js"> </script>
-    <script src="js/toggle-effects.js"></script>
+    
     
     <div class="container-fluid">
         <div class="row">
@@ -31,6 +32,8 @@
             </div>
         </div>
     </div>
+
+    <!-- home section - include image and name -->
     <div class="bg" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/laptopbg1.jpg');">
         <section id="home">
             
@@ -46,7 +49,8 @@
                         <br>
                     </div>
                 </div>
-                    
+                 
+                <!-- down arrow linked to about section -->
                 <div class="down-ico">
                     <a href="#about">
                         <span class="material-symbols-outlined">
@@ -62,6 +66,8 @@
 
         
     </div>
+
+    <!-- about section - include about me details -->
     <section id="about" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/dark-blue-product-background-new.jpg');"  >
         
         <div class="col-lg-12">
@@ -86,13 +92,13 @@
     
     
 
-    
+   <!-- resume section - include education, contacts and skills details  -->
     <section id="resume" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/wooden-tabletop-new.jpg');">
         
         <div class="col-lg-12">
 
             <div class="row">
-
+                <!-- Education details -->
                 <div class="col-lg-4">
                     <div class="projec">
                         
@@ -119,6 +125,7 @@
                 </div>
                 </div>
                 
+                <!-- Contacts details -->
                 <div class="col-lg-4">
                     <div class="projec">
                         
@@ -154,6 +161,8 @@
               
  
             </div>
+
+            <!-- Technical skills details -->
             <div class="col-lg-4">
 
                 <div class="projec">
@@ -204,7 +213,7 @@
         </div>
     </section>
     
-
+ <!-- Project section - include project details -->
     <section class="myproj" id="myproj" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/flat-lay.jpg');">
         <p class="proj-topic" style="color: aliceblue;">
             PROJECTS
@@ -283,13 +292,21 @@
                     
                     
                 </div>
-             </div>   
-
-                
-
-                
+             </div> 
             </div>
-        
+            <div class="col-lg-12" style="position: absolute; top: 50%;">
+                <div class="row" style="height: 50vh;">
+                    
+                    <!-- up arrow linked to home section -->
+                    <div class="mr-auto ml-auto">
+                        <a href="#home" class="up-arrow" style="color: aliceblue; text-decoration: none;"><i class="fas fa-angle-double-up fa-2x"></i></a>
+                    </div>
+                
+                 </div>   
+            </div>
+                 
+                
+            
         
     </section>
 </div>
