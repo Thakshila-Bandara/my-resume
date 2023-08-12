@@ -2,8 +2,6 @@ window.onscroll = function() {scrollActive()};
 
 //This part for showing active link in navbar
 
-
-
 function scrollActive(){
     
         let sections = document.querySelectorAll('section');

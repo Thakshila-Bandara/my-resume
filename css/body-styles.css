@@ -17,6 +17,7 @@ body, html{
     color: black;
 }
 
+/* CSS part for header and nav bar */
 header{
 
     position: fixed;
@@ -51,7 +52,7 @@ nav a:hover, nav a.active{
     color: #cd8405;
 }
 
-
+/* css part for home section */
 #home{
     
     position: relative;
@@ -150,6 +151,7 @@ nav a:hover, nav a.active{
     color: goldenrod;
 }
 
+/* css part for about section */
 #about{
 
     position: relative;
@@ -187,6 +189,7 @@ nav a:hover, nav a.active{
     text-align: center;
 }
 
+/* css part for resume section */
 #resume{
 
     position: relative;
@@ -346,6 +349,7 @@ nav a:hover, nav a.active{
 
 }
 
+/* css part for project section */
 #myproj{
 
     position: relative;
@@ -438,6 +442,7 @@ svg{
     transition: transform .5s ease-in;
 }
 
+/* for include some animations when accordion effect work */
 @keyframes fade{
 
     from{
