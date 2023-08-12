@@ -1,32 +1,36 @@
-window.onscroll = function() {scrollFunction(), scrollActive()};
-
-function scrollFunction() {
-    
-    if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-
-        document.getElementById("header").style.top = "0";
-    }else{
-        document.getElementById("header").style.top = "-50px";
-    }
-}
+window.onscroll = function() {scrollActive()};
 
 //This part for showing active link in navbar
 
-const sections = document.querySelectorAll("section");
-const navA = document.querySelectorAll(".header-middle a");
+
 
 function scrollActive(){
     
-        let fromTop = window.scrollY;
-    
-        navA.forEach((a) => {
-            const section = document.querySelector(a.getAttribute("href"));
-            if (section.offsetTop <= fromTop + 50 && section.offsetTop + section.offsetHeight > fromTop + 50) {
-                a.classList.add("active");
-            } else {
-                a.classList.remove("active");
-            }
-        });
+        let sections = document.querySelectorAll('section');
+        let navLinks = document.querySelectorAll('.header-middle a');
+
+        window.onscroll = () => {
+            console.log(sections)
+            console.log(navLinks)
+            console.log('Hi')
+            sections.forEach(sec => {
+
+                let top = window.scrollY;
+                let offset = sec.offsetTop - 150;
+                let height = sec.offsetHeight;
+                let id = sec.getAttribute('id');
+
+                if (top >= offset && top < offset + height) {
+                    
+                    navLinks.forEach(links => {
+
+                        links.classList.remove('active');
+                        document.querySelector('.header-middle a[href*=' + id + ']').classList.add('active');
+                    });
+                }
+            });
+        };
+
     
     
   };

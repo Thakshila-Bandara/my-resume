@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
 
 html{
@@ -14,17 +17,42 @@ body, html{
     color: black;
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+header{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+nav{
+    padding-left: 30%;
+}
+
+.header-middle a{
+
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: .3s;
+    
+}
+
+nav a:hover, nav a.active{
+
+    color: #cd8405;
 }
 
 
-
-.bg{
+#home{
     
     position: relative;
     height: 100%;
@@ -100,7 +128,7 @@ body, html{
     bottom: 30%; 
     left: 50%;
     transform: translateX(-40%);
-    font-size: 90px;
+    
 }
 
 .down-ico span{
