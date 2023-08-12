@@ -8,9 +8,6 @@ function scrollActive(){
         let navLinks = document.querySelectorAll('.header-middle a');
 
         window.onscroll = () => {
-            console.log(sections)
-            console.log(navLinks)
-            console.log('Hi')
             sections.forEach(sec => {
 
                 let top = window.scrollY;
