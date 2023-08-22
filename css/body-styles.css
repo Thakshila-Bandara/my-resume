@@ -10,6 +10,11 @@ html{
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+
+    display: none;
+}
+
 body, html{
 
     height: 100%;
